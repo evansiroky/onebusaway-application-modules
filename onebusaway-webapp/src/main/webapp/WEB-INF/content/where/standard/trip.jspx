@@ -75,12 +75,12 @@
         <table id="mapLegend">
             <tbody>
                 <tr>
-                    <td><img src="${oba:resource('collection-entry:Map:MapIcon-Bus-22.png')}" /></td>
+                    <td><img src="/onebusaway-webapp/resource.action?id=/org/onebusaway/presentation/resources/map/MapIcon-Bus-22-7bfe3cde174dea0e6883957a27326066.cache.png" /></td>
                     <td><s:text name="trip.Transit_stop"/></td>
                 </tr>
                 <s:if test="stopId != null">
                 <tr>
-                    <td><img src="${oba:resource('collection-entry:Map:SelectionCircle36.png')}" /></td>
+                    <td><img src="/onebusaway-webapp/resource.action?id=/org/onebusaway/presentation/resources/map/SelectionCircle36-7bfe3cde174dea0e6883957a27326066.cache.png" /></td>
                     <td><s:text name="trip.Your_selected_stop"/></td>
                 </tr>
                 </s:if>
